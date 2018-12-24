@@ -1,0 +1,42 @@
+.interest {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fa {
+  font-size: 30px;
+}
+.pawn {
+  background-image: url("../img/Layer\ 8.png");
+}
+.us-coin {
+  background-image: url("../img/U_S_Sacagawea_one_dollar_coin_obverse.jpg");
+}
+.dollarbill {
+  background-image: url("../img/fednotes.jpg");
+}
+.kaku {
+  background-image: url("../img/kaku.jpg");
+}
+.hawking {
+  background-image: url("../img/hawking.jpg");
+}
+.newton {
+  background-image: url("../img/newton.jpg");
+}
+#controls {
+  background: white;
+  background-size: auto;
+  width: 66px;
+}
+
+html {
+  width: 90%;
+  align-content: center;
+  background-size: cover;
+  display: inline-block;
+  background-image: url("../img/bg.jpg");
+}
