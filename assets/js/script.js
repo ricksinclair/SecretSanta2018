@@ -12,9 +12,21 @@ var playPauseAnim = anime({
   }
 });
 
+var colors = anime({
+  targets: "h1",
+  translateX: 250,
+  color: [{ value: "rgb(255, 0, 0)" }, { value: "hsl(100, 60%, 60%)" }],
+  easing: "linear",
+  direction: "alternate",
+  duration: 2000,
+  loop: true
+});
+
 $(".play").on("click", () => {
   playPauseAnim.play();
+  colors.play();
 }); //  Manually play
 $(".pause").on("click", () => {
   playPauseAnim.pause();
+  colors.pause();
 }); //  Manually pause
